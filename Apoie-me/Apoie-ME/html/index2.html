@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/index2.css" />
+    <title>Apoie-me</title>
+  </head>
+  <body>
+    <div class="header">
+      <img src="../img/logo.png" alt="logo" />
+      <div class="nav">
+        <a class="link" id="sobre" href="egg.html">sobre</a>
+        <a class="link" target="_blank" href="voluntarios.html">voluntarios</a>
+        <a class="link" href="agendC.html">contatos</a>
+      </div>
+    </div>
+    <div class="content">
+      <div class="text">
+        <h1>FAÇA A DIFERENÇA</h1>
+        <h2>
+          “Apoie-me” é um projeto social sem fins lucrativos, o objetivo é
+          ajudar pessoas e dar oportunidades para aqueles que desejam ajudar.
+          Para isso, a Apoie-me oferece diversas formas de ajudar, como doações
+          em dinheiro, doações de livros, voluntariado e muito mais.
+        </h2>
+
+        <button id="btn">APOIA-ME</button>
+      </div>
+      <img class="img" src="../img/imagem.png" alt="" />
+    </div>
+    <script>
+      const btn = document.getElementById("btn");
+
+      btn.addEventListener("click", alerta);
+
+      function alerta() {
+        alert(
+          "`Apoie-me` é um projeto social sem fins lucrativos, o objetivo é ajudar pessoas e dar oportunidades para aqueles que desejam ajudar. Para isso, a Apoia-me oferece diversas formas de ajudar, como doações em dinheiro, doações de livros, voluntariados e mais"
+        );
+      }
+    </script>
+  </body>
+</html>
